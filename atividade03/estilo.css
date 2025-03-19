@@ -1,0 +1,34 @@
+
+
+h1{
+    color: rgb(98, 0, 244);
+}
+h2{
+    color: cornflowerblue;
+
+}
+h3{
+    color: hsl(0, 100%, 50%);
+}
+h5{
+    color: #1a1083;
+}
+
+.emoji-scale {
+    display: inline-block;
+    font-size: 50px;
+    transform: scale(2); 
+
+}.gif-antes::before {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 150px;
+    background: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcnhmd2pvYzZmcTdwMXJ6ZTJmZ2dtbTNybGwwcHVvNDBncjE3NGFpeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iIqmM5tTjmpOB9mpbn/giphy.gif') no-repeat center;
+    background-size: cover;
+}ble gost 
+
+
+
+
+

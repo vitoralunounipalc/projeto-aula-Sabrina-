@@ -1,0 +1,56 @@
+*{
+    margin:0;
+}
+
+#flexbox1{
+    /* propriedades de formatação basica*/
+    background-color: #a4fde0;
+    padding:15px;
+    height: 500px;
+
+    /* propriedades dp flexbox */ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#flexbox2{
+    /* propriedades de formatação basica*/
+    background-color: #710489;
+    padding:15px;
+    height: 100%; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   /* gap: 20px; o gap coloca espacamento em todos os lados */
+    row-gap: 10px; /* coloca espacamento emcima e embaixo*/
+    column-gap: 20px; /* coloca espacamento dos lados direito e esquerdo*/ 
+}
+
+
+
+
+
+.bloco-1{
+    background-color: #8a2be2;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    border-radius: 16px;
+}
+.bloco-2{
+    background-color: #0e02f3;
+    height: 150px;
+    width: 500px;
+    text-align: center;
+    border-radius: 16px;
+}
+.bloco-3{
+    background-color: #dfdc0c;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    border-radius: 16px;
+}
